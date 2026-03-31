@@ -10,14 +10,14 @@ spring:
     driver-class-name: org.postgresql.Driver
 
   ai:
-    model.chat: openai
+    # model.chat: openai
     openai:
-      api-key: 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
-      base-url: https://openrouter.ai/api
+      api-key: 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
+      # base-url: https://openrouter.ai/api
       chat:
         options:
-          model: google/gemini-3-flash-preview
-          temperature: 0.2
-      embedding:
-        options:
-          model: qwen/qwen3-embedding-8b
+          model: gpt-4.1
+          temperature: 0.0
+      # embedding:
+      #   options:
+      #     model: qwen/qwen3-embedding-8b
